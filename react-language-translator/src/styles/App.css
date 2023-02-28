@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+div {
+  padding: 10px;
+  
+}
+
+select{
+  padding: 3px;
+  margin: 7px;
+}
+
+#bt {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #59268a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#bt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#bt span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#bt:hover span {
+  padding-right: 25px;
+}
+
+#bt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+textarea {
+  display:block;
+  box-sizing: border-box;
+  width:100%;
+  resize: none;
+  overflow-y: hidden;
+  border: 2;
+  outline: 0;
+  background: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #343434;
+ 
+}
+
+#input:focus {
+   box-shadow: 0 0 0 3px ;
+}
+
+#output:focus {
+  box-shadow: 0 0 0 1px ;
+}
+
+#list {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #d9d3df;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#list span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}

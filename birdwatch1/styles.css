@@ -1,0 +1,57 @@
+body {
+    background-color: LightSkyBlue;
+    font-family: "Helvetica", sans-serif;
+    color: purple;
+    padding: 1%;
+  }
+
+  h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Times New Roman", serif;
+  }
+  nav{
+    position: fixed;
+    top: 0px;
+    width: 90%;
+  }
+  nav ul {
+    background-color: tomato;
+    border-style: solid;
+    border-color: MediumVioletRed;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+   
+  }
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+img{
+    border-radius: 10px;
+}
+
+table, th, td {
+    border: 1px solid HoneyDew;
+    border-collapse: collapse;
+  }
+  tr {
+    background-color: PaleTurquoise;
+  }
+  th, td {
+    vertical-align: top;
+    padding: 5px;
+    text-align: left;
+  }
+  th {
+    color: purple;
+  }
+  td {
+    color: purple;
+  }

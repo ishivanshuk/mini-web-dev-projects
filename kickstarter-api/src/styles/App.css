@@ -1,0 +1,39 @@
+ 
+  .table-wrapper {
+    
+    padding-top: 5%;
+    overflow: auto;
+    padding-bottom: 5%;
+  }
+  a{
+    text-decoration: none;
+  }
+  table {
+    border-spacing: 0;
+    flex: 0.5;
+    border-radius: 10;
+    border: 1px solid black;
+  }
+  
+  thead {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: rgb(45, 45, 72);
+    color: aliceblue;
+  }
+  
+  tbody {
+    font-size: 14px;
+    background-color: aliceblue;
+    color: rgb(45, 45, 72);
+  }
+  
+  th, td {
+    padding: 18px 24px;
+    
+    border-bottom: 1px solid blue;
+  }
+  
+  
